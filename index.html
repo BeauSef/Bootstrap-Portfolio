@@ -5,88 +5,103 @@
     <title>About Me</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
    
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
-        crossorigin="anonymous"></script>
 
     <!--Style sheet-->
     <style>
         body {
             background-color: #dddddd;
+            color: #777777;
         }
         .navbar {
-            width: 99% !important;
-            background-color: #ffffff;
-            color: #cccccc ;
+           background-color: #ffffffff;
+           color: #777777;
         }
-    
+        .navbar-brand {
+            width: 115px;
+            height: 50px;
+            background-color: #4aaaa5; 
+            margin-top: 10px;
+        }
     
         .container {
-            background-color: #ffffff !important;
-            
+            background-color: #ffffffff !important;
         }
-        footer {
+      
+        h1 {
+            color:#4aaaa5;
+        }
+
+         footer {
             text-align: center;
             background-color: #666666;
             border-top: 8px solid #4aaaa5;
-            padding-top: 50px;
+            padding-top: 75px;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            position: fixed;
 
         }
     </style>
-
-    <div class="row">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="col-md-6"> <a class="navbar-brand" href="#">Beau Hunter</a> </div>
-            <div class="col-md-2"> <a href="index.html">About </a></div>
-            <div class="col-md-2"> <a href="portfolio.html">Portfolio </a></div>
-            <div class="col-md-2"><a href="contact.html">Contact </a></div>
-        </nav>
-    </div><br>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <a class="navbar-brand" href="index.html">Beau Hunter</a> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">About Me <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav><br>
     <div col-sm-12>
     <div class="container">
-        
-
         <div class="row">
             <div class="col-md-12">
-               <br> <h1>About Me</h1>
-                <hr>
+               <br> <h1>About Me</h1> 
+               <hr>
             </div>
             <div class="row">
-                <div class="col-md-4">
-                    <img class="image" src="https://placehold.it/150x150" alt="150x150 grey blank picture"> <br>
+                <div class="col-md-2">
+                    <img class="img-thumbnail" src="https://placehold.it/150x150" alt="150x150 grey blank picture"> <br>
                 </div>
-                <div class="col-md-6">
-                    <p>My name is Beau Hunter, I have lived in Utah my whole life.<br>
+                <div class="col-md-10">
+                    <p>My name is Beau Hunter, I have lived in Utah my whole life.
                         I am defintly apart of JazzNation which is a very elite group. <br>
-                        JK i'm just a big Utah Jazz fan!I love to workout and have been<br>
-                        pretty dang consistnt until I meet nachos and beer.<br>
-                        On the weekends i'm found playing basketball,<br> watching movies and sports, and haveing a
-                        beer.<br>
-                        I sometimes play games like NBA2k, Call of Duty, or anyboard game.<br>I enjoy traveling and
+                        JK i'm just a big Utah Jazz fan!I love to workout and have been
+                        pretty dang consistnt until I meet nachos and beer.</p>
+                        <p>On the weekends i'm found playing basketball, watching movies and sports, and haveing a
+                        beer.<br> Movies are defintatley one of the best things around, my future will definitley have a theatre
+                        in the basement along with some gym equiptment. <br>
+                        I sometimes play games like NBA2k, Call of Duty, or anyboard game.I enjoy traveling and
                         going to the beach, within the past 2 years I have been to Flordia, San Diego, Washington, and
-                        Vegas.<br>
-                        Im hoping to be able to have a house by the beach once I get my exciting new career started in
-                        development.
+                        Vegas.</p>
+                       <p> Im hoping to be able to have a house by the beach once I get my exciting new career started in
+                        development. I'm still unsure exactly what time of development I want to do meaning front end, back end, and or full stack.<br>
                     </p>
+                </div>
                 </div>
             </div>
         </div>
-    </div>
+    
     </div>
 </body><br><br><br><br><br><br><br>
 <footer class="col-md-12">
