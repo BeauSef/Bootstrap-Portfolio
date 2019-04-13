@@ -1,3 +1,4 @@
+
 h2{
     color: lightslategray;
     font-size: 50px;
@@ -11,6 +12,7 @@ body{
 
 .container {
     background-color: #ffffffff;
+    border: 4px solid #3D3D3D ;
 }
 .index-image{
     float: left;
@@ -28,11 +30,8 @@ footer {
 
 }
 
-#email{
-    font-size: 20px;
-}
+
 .icon{
-    width: 120px;
     height: 70px;
     padding: 20px;
 }
@@ -49,4 +48,14 @@ footer {
 
 .mePic{
     border: 4px solid #3D3D3D;
+    margin: 5px;
 }
+.info{
+    color:black;
+    width: 100%;
+      padding: 10px;
+      border: 7px solid #3D3D3D ;
+      margin: 5px;
+  }
+  
+
